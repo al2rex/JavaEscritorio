@@ -129,6 +129,7 @@ public class FrmLogin extends javax.swing.JFrame {
         
         FrmPrincipal miPrincipal = new FrmPrincipal();
         miPrincipal.setVisible(true);
+        
     }//GEN-LAST:event_btnAceptarActionPerformed
 
     /**
