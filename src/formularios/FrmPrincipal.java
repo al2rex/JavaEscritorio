@@ -89,6 +89,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         mnuArchivo.add(mnuArchivoCambioUsuario);
         mnuArchivo.add(jSeparator2);
 
+        mnuArchivoSalir.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_S, java.awt.event.InputEvent.CTRL_MASK));
         mnuArchivoSalir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/salir.png"))); // NOI18N
         mnuArchivoSalir.setText("Salir");
         mnuArchivoSalir.addActionListener(new java.awt.event.ActionListener() {
