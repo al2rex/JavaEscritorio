@@ -72,6 +72,11 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         mnuArchivoUsuarios.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/usuarios.png"))); // NOI18N
         mnuArchivoUsuarios.setText("Usuarios");
+        mnuArchivoUsuarios.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mnuArchivoUsuariosActionPerformed(evt);
+            }
+        });
         mnuArchivo.add(mnuArchivoUsuarios);
         mnuArchivo.add(jSeparator1);
 
@@ -86,6 +91,11 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         mnuArchivoSalir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/salir.png"))); // NOI18N
         mnuArchivoSalir.setText("Salir");
+        mnuArchivoSalir.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mnuArchivoSalirActionPerformed(evt);
+            }
+        });
         mnuArchivo.add(mnuArchivoSalir);
 
         jMenuBar1.add(mnuArchivo);
@@ -131,6 +141,18 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void mnuArchivoUsuariosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mnuArchivoUsuariosActionPerformed
+        // TODO add your handling code here:
+        FrmUsuarios misUsuarios = new FrmUsuarios();
+        dpnEscritorio.add(misUsuarios);
+        misUsuarios.show();
+    }//GEN-LAST:event_mnuArchivoUsuariosActionPerformed
+
+    private void mnuArchivoSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mnuArchivoSalirActionPerformed
+        // TODO add your handling code here:
+        this.dispose();
+    }//GEN-LAST:event_mnuArchivoSalirActionPerformed
 
     /**
      * @param args the command line arguments

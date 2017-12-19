@@ -49,6 +49,7 @@ public class FrmUsuarios extends javax.swing.JInternalFrame {
         setMaximizable(true);
         setResizable(true);
         setTitle("Usuarios");
+        setToolTipText("Va al primer registro!");
 
         jLabel1.setText("ID Usuario:");
 
@@ -68,10 +69,13 @@ public class FrmUsuarios extends javax.swing.JInternalFrame {
         btnPrimero.setActionCommand("");
 
         btnUltimo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/ultimo.png"))); // NOI18N
+        btnUltimo.setToolTipText("Va al ultimo registro!");
 
         btnAnterior.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/anterior.png"))); // NOI18N
+        btnAnterior.setToolTipText("Va al anterior registro!");
 
         btnSiguiente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/siguiente.png"))); // NOI18N
+        btnSiguiente.setToolTipText("Va al siguiente registro!");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -110,7 +114,7 @@ public class FrmUsuarios extends javax.swing.JInternalFrame {
                                         .addComponent(txtConfirmarClave, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE))))))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(btnPrimero)
-                        .addGap(2, 2, 2)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(btnAnterior)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(btnSiguiente)
