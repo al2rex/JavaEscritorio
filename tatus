@@ -1,0 +1,76 @@
+[33mcommit 6d047d23ad75fe1d0914064399f9ba3f6e3f93de[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Ing Arnaldo Castilla <arnaldo.castilla@hotmail.com>
+Date:   Thu Dec 7 00:04:01 2017 -0500
+
+    Menu de navegacion formulario principal, con imagenes
+
+[33mcommit 5ceb2436710dec146b3c3f9d5e63684037afdf80[m
+Author: Ing Arnaldo Castilla <arnaldo.castilla@hotmail.com>
+Date:   Wed Dec 6 23:21:15 2017 -0500
+
+    Cuando el ingreso es exitoso ocultamos la ventana de login, y maximizamos la ventana principal
+
+[33mcommit ef81be731e34adc2edd9e3944447bef1109045af[m[33m ([m[1;33mtag: Parte_4[m[33m, [m[1;33mtag: 5ceb2436710dec146b3c3f9d5e63684037afdf80[m[33m, [m[1;31mmaster/master[m[33m)[m
+Author: Ing Arnaldo Castilla <arnaldo.castilla@hotmail.com>
+Date:   Wed Dec 6 22:59:49 2017 -0500
+
+[33mcommit 37960aabd91936716eb1ceab5a9a1b6a484e0a1a[m[33m ([m[1;33mtag: Parte_3[m[33m)[m
+Author: Ing Arnaldo Castilla <arnaldo.castilla@hotmail.com>
+Date:   Tue Dec 5 22:46:01 2017 -0500
+
+    Parte 3
+
+[33mcommit 4b1abe3e8b2d80e5855fba4dc2c424c0bb5fb8b6[m
+Author: Ing Arnaldo Castilla <arnaldo.castilla@hotmail.com>
+Date:   Tue Dec 5 22:45:26 2017 -0500
+
+    Creacion del formulario principal, para probar la logica de login
+
+[33mcommit b3d94e236724aa58268b1cc9bdb9f3ee77ca1076[m
+Author: Ing Arnaldo Castilla <arnaldo.castilla@hotmail.com>
+Date:   Tue Dec 5 22:43:01 2017 -0500
+
+    Creacion de la clase datos y la logica de login!
+
+[33mcommit 6403e03e2e81f305a0a012c36bc5bc522f6b4823[m[33m ([m[1;33mtag: Parte_2[m[33m)[m
+Author: Ing Arnaldo Castilla <arnaldo.castilla@hotmail.com>
+Date:   Mon Dec 4 23:33:48 2017 -0500
+
+    Creacion del formulario loguin, y componentes del mismo, layers textboxt y botones
+
+[33mcommit 7d8d75764587e03a559e6fa2217a1d26d6c009bf[m[33m ([m[1;33mtag: Parte_1[m[33m)[m
+Author: Ing Arnaldo Castilla <arnaldo.castilla@hotmail.com>
+Date:   Mon Dec 4 22:54:28 2017 -0500
+
+    Mezclando ramas Arnaldo y master
+
+[33mcommit 601eaa8fe92c0608f046707487a921e2c6bda26b[m[33m ([m[1;31morigin/Arnaldo[m[33m, [m[1;31mmaster/Arnaldo[m[33m, [m[1;32mArnaldo[m[33m)[m
+Merge: e0b8275 7c5a14c
+Author: Ing Arnaldo Castilla <arnaldo.castilla@hotmail.com>
+Date:   Mon Dec 4 22:35:54 2017 -0500
+
+    Merge origin/master into Arnaldo
+
+[33mcommit e0b82753739dbae71cb6a18fd40fdb24e08d31e1[m
+Author: Ing Arnaldo Castilla <arnaldo.castilla@hotmail.com>
+Date:   Mon Dec 4 22:31:32 2017 -0500
+
+    Ajustando Branch Repositorio
+
+[33mcommit 1d9d0fbd8cff417e71220fa0b708da1dcaea4a65[m
+Author: Ing Arnaldo Castilla <arnaldo.castilla@hotmail.com>
+Date:   Mon Dec 4 22:20:30 2017 -0500
+
+    ¡Creacion del proyecto JavaEscritorio y HolaMundo!
+
+[33mcommit bbb4c75b0e950ead782227b7009298e24653569e[m
+Author: Ing Arnaldo Castilla <arnaldo.castilla@hotmail.com>
+Date:   Mon Dec 4 22:19:18 2017 -0500
+
+    ¡Creacion del proyecto JavaEscritorio!
+
+[33mcommit 7c5a14c709c21a098c0c79ddae3257f169290034[m
+Author: Arnaldo Castilla <arnaldo.castilla@hotmail.com>
+Date:   Mon Dec 4 22:17:22 2017 -0500
+
+    Initial commit
