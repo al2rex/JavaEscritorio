@@ -204,7 +204,7 @@
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/images/primero.png"/>
         </Property>
-        <Property name="actionCommand" type="java.lang.String" value=""/>
+        <Property name="toolTipText" type="java.lang.String" value="Va al primer registro!"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="btnUltimo">
@@ -256,6 +256,9 @@
         </Property>
         <Property name="toolTipText" type="java.lang.String" value="Va al anterior registro!"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnModificarActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnGuardar">
       <Properties>

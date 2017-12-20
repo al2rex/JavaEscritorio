@@ -72,7 +72,7 @@ public class FrmUsuarios extends javax.swing.JInternalFrame {
         cmbPerfil.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccione un perfil", "Administrador", "Empleado" }));
 
         btnPrimero.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/primero.png"))); // NOI18N
-        btnPrimero.setActionCommand("");
+        btnPrimero.setToolTipText("Va al primer registro!");
 
         btnUltimo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/ultimo.png"))); // NOI18N
         btnUltimo.setToolTipText("Va al ultimo registro!");
@@ -95,6 +95,11 @@ public class FrmUsuarios extends javax.swing.JInternalFrame {
 
         btnModificar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/modificar.png"))); // NOI18N
         btnModificar.setToolTipText("Va al anterior registro!");
+        btnModificar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnModificarActionPerformed(evt);
+            }
+        });
 
         btnGuardar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/guardar.png"))); // NOI18N
         btnGuardar.setToolTipText("Va al siguiente registro!");
@@ -247,6 +252,7 @@ public class FrmUsuarios extends javax.swing.JInternalFrame {
        txtConfirmarClave.setText("");
        cmbPerfil.setSelectedIndex(0);
        
+       txtIdUsuario.requestFocusInWindow();
        
     }//GEN-LAST:event_btnNuevoActionPerformed
 
@@ -298,6 +304,31 @@ public class FrmUsuarios extends javax.swing.JInternalFrame {
        txtConfirmarClave.setEnabled(false);
        cmbPerfil.setEnabled(false);
     }//GEN-LAST:event_btnCancelarActionPerformed
+
+    private void btnModificarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnModificarActionPerformed
+        // TODO add your handling code here:
+       btnPrimero.setEnabled(false);
+       btnAnterior.setEnabled(false);
+       btnSiguiente.setEnabled(false);
+       btnUltimo.setEnabled(false);
+       btnNuevo.setEnabled(false);
+       btnModificar.setEnabled(false);
+       btnBorrar.setEnabled(false);
+       btnBuscar.setEnabled(false);
+       btnGuardar.setEnabled(true);
+       btnCancelar.setEnabled(true);
+       
+       txtIdUsuario.setEnabled(true);
+       txtNombres.setEnabled(true);
+       txtApellidos.setEnabled(true);
+       txtClave.setEnabled(true);
+       txtConfirmarClave.setEnabled(true);
+       cmbPerfil.setEnabled(true);
+       
+       
+       
+       txtNombres.requestFocusInWindow();
+    }//GEN-LAST:event_btnModificarActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
