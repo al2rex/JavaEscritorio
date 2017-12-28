@@ -342,7 +342,12 @@ public class FrmUsuarios extends javax.swing.JInternalFrame {
     }//GEN-LAST:event_btnModificarActionPerformed
 
     private void formInternalFrameOpened(javax.swing.event.InternalFrameEvent evt) {//GEN-FIRST:event_formInternalFrameOpened
-        
+        txtIdUsuario.setText(misDatos.getUsuarios()[usuAct].getIdUsuario());
+        txtNombres.setText(misDatos.getUsuarios()[usuAct].getNombres());
+        txtApellidos.setText(misDatos.getUsuarios()[usuAct].getApellidos());
+        txtClave.setText(misDatos.getUsuarios()[usuAct].getClave());
+        txtConfirmarClave.setText(misDatos.getUsuarios()[usuAct].getClave());
+        cmbPerfil.setSelectedIndex(misDatos.getUsuarios()[usuAct].getPerfil());
     }//GEN-LAST:event_formInternalFrameOpened
 
 

@@ -13,6 +13,10 @@ public class Datos {
         conUsu++;
     }
     
+    public Usuario[] getUsuarios(){
+        return misUsuarios;
+    }
+    
     public boolean validarUsuario(String usuario, String clave){
         boolean aux = false;
         for(int i=0;i<conUsu;i++){
